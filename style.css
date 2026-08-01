@@ -1,0 +1,96 @@
+:root{
+    --blue-color : rgb(0, 117, 222);
+}
+
+@font-face {
+    font-family: notion-regular;
+    src: url('./fonts/NotionInter-Regular.woff2');
+}
+
+@font-face {
+    font-family: notion-bold;
+    src: url('./fonts/NotionInter-Bold.woff2');
+}
+
+@font-face {
+    font-family: notion-semibold;
+    src: url('./fonts/NotionInter-SemiBold.woff2');
+}
+
+@font-face {
+    font-family: notion-medium;
+    src: url('./fonts/NotionInter-Medium.woff2');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav img{
+    width: 29px;
+    height: 29px;
+}
+
+header{
+    height: 64px;
+    top: 0;
+    position: sticky;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+}
+
+.nav-actions{
+    display: flex;  
+}
+
+.nav-menu-button{
+    width: 32px;
+    height: 32px;
+}
+
+.notion-button{
+    display: flex;
+    align-items: center;
+    background-color: var(--blue-color);
+    color: white;
+    padding: 4px 14px;
+    border-radius: 8px;
+}
+
+main{
+    margin-top: 20px;
+}
+
+.hero-image-stack{
+    display: flex;
+    flex-shrink: 1;
+    background-color: red;
+    height: 39px;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.hero-image{
+    margin: -4px;
+    transition: transform 1s ease;
+}
+
+.hero-image:hover{
+    transform: rotate(10deg);
+}
+
+.hero{
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.hero-text{
+    font-family: notion-bold;
+}
