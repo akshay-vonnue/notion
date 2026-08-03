@@ -1,0 +1,38 @@
+/* buttons */
+
+.hero-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: orange;
+    justify-content: center;
+    gap: 12px;
+}
+
+.hero-buttons a{
+    max-width: 280px;
+    text-decoration: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.get-notion-free-button{
+    background-color: var(--blue-color);
+    padding: 0.375rem 0.938rem;
+    color: #FFFF;
+    border-radius: 8px;
+    font-weight: 400;
+    width: 100%;
+    font-family: notion-bold;
+}
+
+.Request-demo-button{
+    font-family: notion-regular;
+    background-color: #E6F3FE;
+    padding: 0.375rem 0.938rem;
+    color: var(--blue-color);
+    border-radius: 8px;
+    font-weight: 400;
+    width: 100%;
+}

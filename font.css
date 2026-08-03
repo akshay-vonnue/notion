@@ -1,0 +1,29 @@
+.hero-text{
+    font-size: clamp(15rem , 1vw+5.5rem , 3rem);
+    font-weight: 600;
+    display: block;
+    line-height: 3rem;
+    letter-spacing: -0.094;
+    margin-top: 4rem;
+    margin-bottom: 0.75rem;
+}
+
+.hero-text  > span{
+    font-size: 1.969rem;
+    font-family: notion-regular;
+    background-color: #FFE4AF;
+    padding: 2px 12px;
+    border-radius: 9999px;
+    font-weight: 500;
+}
+/* trusted partners */
+
+.trusted-partners p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.25rem;
+    margin-top: 2rem;
+    display: block;
+    color: rgba(0, 0, 0, 0.54);
+    font-family: notion-regular;
+}
