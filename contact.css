@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --border-color:rgba(0, 0, 0, 0.08);
+    --button-background-color:rgb(0, 117, 222);
+    --disabled-color:rgb(246, 245, 244);
+}
+
+.contact-main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 1.5rem ;
+    margin-left: 0.938rem;
+    margin-right: 0.938rem;
+    gap: 80px;
+    margin-top: 0;
+}
+
+.form-hero-heading{
+    font-size: 2.625rem;
+    font-family: notion-bold;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+.form-content{
+    /* width: 41.41%; */
+    max-width: 508px;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.75rem;
+}
+
+.email-wrapper{
+    grid-column: span 2;
+    display: grid;
+}
+
+.email-wrapper input{
+    background-color: var(--disabled-color);
+}
+
+.term-and-conditions{
+    grid-column: span 2;
+    letter-spacing: normal;
+    line-height: 1.25rem;
+}
+
+.img-decoration{
+    margin-top: 5rem;
+    margin-right: 2rem;
+}
+
+.wrapper{
+    display: grid;
+    column-gap: 1.75rem;
+}
+
+input ,select{
+    padding: 0.438rem 0.625rem;
+    background-color: #ffffff;
+    border-color: var(--border-color);
+    border-radius: 0.313rem;
+    border-width: 1px;
+}
+
+input[type=checkbox]{
+    accent-color: black;
+}
+
+p{
+    font-weight: 400;
+    margin-bottom: 0.313rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+span{
+    letter-spacing: normal;
+    font-size: 0.875rem;
+}
+
+.next-button{
+    grid-column: span 2;
+    border-radius: 0.625rem;
+    background-color: var(--button-background-color);
+    padding: 0.688rem 1.25rem;
+    margin-top: 0.5;
+    border: none;
+    min-height: 2.25rem;
+
+    font-weight: 400;
+    color: white;
+    font-family: notion-bold;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    gap: 1rem;
+    padding: 1rem 0.5rem 1rem 0rem;
+    background-color: var(--border-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-image{
+    width: 5.247rem;
+    height: 1.25rem;
+}
